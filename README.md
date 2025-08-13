@@ -22,6 +22,9 @@ Script ini **hanya untuk penggunaan etis** dengan izin pemilik sistem yang diuji
 
 1. **Clone repo** atau download script:
    ```bash
-   git clone https://github.com/username/bug-bounty-scanner.git
-   cd bugbounty
+   pkg install python
+   pkg install git
+   pip install requests beautifulsoup4 colorama
+   git clone https://github.com/Pandagz25/Bugbounty.git
+   cd Bugbounty
    python bag.py
